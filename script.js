@@ -6,7 +6,7 @@ function appendValue(value) {
 
     let display = document.getElementById("display");
 
-    // If the user selects an operator
+    // Check whether the user selected an operator
     if (value === "+" || value === "-" ||
         value === "*" || value === "/") {
 
